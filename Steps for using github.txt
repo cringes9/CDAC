@@ -1,0 +1,13 @@
+1. First open in your browser github and create the account in github then open cmd 
+    > git config --global user.name "Write your username here"
+ > git config --global user.email "Write your emailhere" 
+ 
+2. Create central repositry in your account .
+3. Then use command git clone with code link
+3. Create a folder and inside use git clone command.
+4. Add something in your existing folder
+5. Use command git add .  == It will add in your local repositry
+6. Use commit command to save your changes to local repositry 
+   git commit -m "First Commit"
+7. At last use push command to push in your github central repositry
+     The git push command is used to upload local repository      content to a remote repository
