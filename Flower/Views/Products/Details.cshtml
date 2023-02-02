@@ -1,0 +1,19 @@
+@using BOL;
+@{
+    ViewData["Title"] = "Flower Details Page";
+ }
+@{
+   Product pro=(Product)ViewBag.currentProduct;
+   
+        <h3>Beautiful Flower Detalis</h3>
+        <hr/>
+        <p>Id:@pro.ProductId</p>
+        <p>Title:@pro.Title</p>
+        <p>Description:@pro.Description</p>
+        <p>Unit Price:@pro.UnitPrice Rs.</p>
+        <p>Stock Available:@pro.StockAvailable</p>
+        <a href="/shoppingcart/add/@pro.ProductId">Add to Cart</a>
+}
+
+
+
